@@ -1,7 +1,7 @@
-﻿int[] array = new int[] {1,2,3,4};
+﻿int[] array = new int[] { 1, 2, 3, 4 };
 int[] result;
 
-if (array.Length % 2 == 0 )
+if (array.Length % 2 == 0)
 {
     result = new int[array.Length / 2];
 }
@@ -10,7 +10,7 @@ else
     result = new int[array.Length / 2 + 1];
 }
 
-for ( int i = 0, j = array.Length - 1; i < array.Length / 2; i++, j--)
+for (int i = 0, j = array.Length - 1; i < array.Length / 2; i++, j--)
 {
     result[i] = array[i] * array[j];
 }
